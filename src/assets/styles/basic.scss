@@ -1,0 +1,18 @@
+@import './fonts/playfair-display';
+@import './variables';
+
+html {
+  color: var(--basic-color);
+  font: 16px/1.5 var(--basic-font-name);
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  color: var(--on-basic-color);
+  background-color: var(--basic-color);
+}

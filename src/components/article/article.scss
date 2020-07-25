@@ -1,0 +1,58 @@
+@import '../../assets/styles/mixins/titles';
+@import '../../assets/styles/mixins/clearfix';
+@import '../button/button';
+
+.article {
+  $root: &;
+
+  &::after {
+    @include clearfix;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: .0625rem solid currentColor;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    @include h3;
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__date {
+    color: var(--primary-color);
+  }
+
+  &__picture {
+    width: 9.375rem;
+    height: 6.25rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    float: left;
+
+    @media (min-width: 500px) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+
+    #{$root}_is_closed & {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+
+  &__button {
+    float: right;
+  }
+}

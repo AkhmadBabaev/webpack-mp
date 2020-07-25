@@ -1,0 +1,25 @@
+extends: "airbnb-base"
+
+settings:
+  import/resolver:
+    webpack:
+      config: "./config/webpack.common.js"
+
+globals:
+  document: false
+
+env:
+  browser: true
+  node: true
+
+ignorePatterns:
+  - "/dist"
+
+rules:
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
+
+  no-unused-expressions: off
+  class-methods-use-this: off
+  no-underscore-dangle: off

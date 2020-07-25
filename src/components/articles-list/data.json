@@ -1,0 +1,43 @@
+[
+  {
+    "isOpen": true,
+    "title": "First article title",
+    "date": "2020-03-17",
+    "picture": {
+      "src": "components/articles-list/images/picture1.jpg"
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fugiat perferendis non! Fugit dolore eveniet saepe ducimus labore quia, accusantium animi! Optio accusantium ducimus culpa voluptatibus nostrum qui amet excepturi.Cum praesentium corporis ea iusto inventore sequi odio molestias minus tempora maxime alias, harum in. Nihil vero minima, asperiores sed dolores unde ea culpa consequuntur quisquam eum similique labore debitis!"
+  }, {
+    "isOpen": false,
+    "title": "Second article title",
+    "date": "2020-03-25",
+    "picture": {
+      "src": "components/articles-list/images/picture2.jpg"
+    },
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus odit fugit porro, omnis commodi iure nobis velit praesentium asperiores nemo at sapiente debitis nihil veritatis, consequuntur consequatur, doloribus sint!Itaque laboriosam qui molestiae dolorum. Sequi voluptatibus nisi harum excepturi illum quam ea minima vitae repellendus repellat quod eveniet, laboriosam ipsum magni nemo dolor. Molestias unde dolor ratione nihil minima."
+  }, {
+    "isOpen": false,
+    "title": "Third article title",
+    "date": "2020-04-09",
+    "picture": {
+      "src": "components/articles-list/images/picture3.jpg"
+    },
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit nam labore! Accusamus enim, ipsa officiis aut eum architecto nihil aperiam, quisquam quis soluta ducimus incidunt expedita impedit dolor dolorem!Alias eligendi perferendis quis nesciunt, cum asperiores, impedit hic eum similique excepturi architecto quos nihil illum in explicabo enim. Dolore impedit, aliquam alias perferendis quaerat enim ratione asperiores amet architecto."
+  }, {
+    "isOpen": false,
+    "title": "Fourth article title",
+    "date": "2020-05-05",
+    "picture": {
+      "src": "components/articles-list/images/picture4.jpg"
+    },
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium in dolores assumenda provident omnis, aperiam at earum repellendus possimus odit maiores consequuntur nesciunt cumque voluptatum dolore fugit corrupti aliquid ducimus.Dicta officiis nobis praesentium quod commodi impedit voluptas quos dolore porro. Ullam, modi velit. Facilis asperiores, earum explicabo doloribus animi voluptatem aliquam quas atque, dolore repudiandae quam minima, vitae aliquid."
+  }, {
+    "isOpen": false,
+    "title": "Fifth article title",
+    "date": "2020-06-13",
+    "picture": {
+      "src": "components/articles-list/images/picture5.jpg"
+    },
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quis eos consequatur nihil veritatis amet totam fugit quasi accusantium sint voluptate earum officiis culpa porro exercitationem deserunt, quibusdam voluptates aliquam!Maiores, hic tempora. Culpa exercitationem velit ab repudiandae assumenda inventore, consequatur laborum. Non dolorem sed ad atque mollitia, blanditiis, cum quo ea repudiandae odio, eligendi aspernatur in fugiat accusamus porro."
+  }
+]

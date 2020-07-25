@@ -1,0 +1,16 @@
+extends ../../assets/markup-layouts/main
+include ../../components/index-page/index-page
+
+block append variables
+  - const title = 'Webpack MP';
+
+block append head
+  if isProdEnv
+    link(rel = "stylesheet" href = "styles/index.bundle.css")
+
+block body
+  +index-page
+
+  script(src = "scripts/index.bundle.js")
+
+

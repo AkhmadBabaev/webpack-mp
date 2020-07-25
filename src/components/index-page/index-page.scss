@@ -1,0 +1,19 @@
+@import '../../assets/styles/mixins/container';
+@import '../../assets/styles/mixins/titles';
+@import '../articles-list/articles-list';
+
+.index-page {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    @include h1;
+
+    display: inline-block;
+  }
+}

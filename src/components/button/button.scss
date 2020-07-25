@@ -1,0 +1,21 @@
+.button {
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: var(--on-primary-color);
+  background: var(--primary-color);
+  padding: .3125rem;
+  border: .0625rem solid var(--primary-color);
+  user-select: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 .4375rem .125rem var(--primary-color);
+  }
+
+  &:hover {
+    color: var(--primary-color);
+    background: var(--on-primary-color);
+    border: .0625rem solid currentColor;
+  }
+}

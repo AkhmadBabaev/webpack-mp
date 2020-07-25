@@ -1,0 +1,9 @@
+include ../article/article
+
+mixin articles-list
+  - const articles = require('@components/articles-list/data.json');
+
+  ul.articles-list
+    each article in articles
+      li.articles-list__item
+        +article(article)

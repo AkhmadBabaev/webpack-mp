@@ -1,0 +1,12 @@
+block fakeBlock
+  -
+    /**
+    * @param {string} param - date in 'ISO 8601 Extended' format.
+    * @return {string} date in the USA format.
+    */
+    function convertDate(param) {
+      const date = new Date(param);
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+      return date.toLocaleString('en-US', options);
+    }

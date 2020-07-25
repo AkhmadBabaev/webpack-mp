@@ -1,0 +1,10 @@
+@import '../mixins/font-face';
+
+$font-name: 'Playfair Display';
+$folder-name: 'playfair-display';
+
+@include font-face($font-name, $folder-name, regular, 400);
+@include font-face($font-name, $folder-name, bold, 700);
+
+@include font-face($font-name, $folder-name, italic, 400, italic);
+@include font-face($font-name, $folder-name, bold-italic, 700, italic);

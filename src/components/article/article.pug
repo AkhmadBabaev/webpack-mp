@@ -1,0 +1,21 @@
+include ../button/button
+
+mixin article({ title = 'Article\'s title', text = 'Article\'s text content', isOpen = false, date, picture })
+  include ./functions
+
+  - const buttonText = isOpen ? 'show less' : 'show more';
+
+  article.article.js-article(class = !isOpen && 'article_is_closed')
+    header.article__header
+      h3.article__title= title
+      time.article__date(datetime = date)= convertDate(date)
+
+    .article__content
+      if picture
+        img.article__picture(src = require(`../../${picture.src}`) alt = picture.alt || '')
+
+      p.article__text= text
+
+    .article__button.js-article__button
+      +button({ type: 'button', text: buttonText })
+

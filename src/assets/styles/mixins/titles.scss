@@ -1,0 +1,17 @@
+@mixin title {
+  font-weight: bold;
+}
+
+@mixin h1 {
+  @include title;
+
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+@mixin h3 {
+  @include title;
+
+  font-size: 1.2rem;
+  line-height: 1.25;
+}

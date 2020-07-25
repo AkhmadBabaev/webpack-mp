@@ -1,0 +1,11 @@
+:root {
+  --basic-font-name: 'Playfair Display', 'Times New Roman', serif;
+  --basic-color: hsl(0, 0%, 25%);
+  --on-basic-color: hsl(0, 0%, 100%);
+
+  --primary-h: 0;
+  --primary-s: 33%;
+  --primary-l: 42%;
+  --primary-color: HSL(var(--primary-h), var(--primary-s), var(--primary-l));
+  --on-primary-color: hsl(0, 0%, 100%);
+}
